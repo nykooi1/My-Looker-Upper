@@ -366,34 +366,7 @@
                     nkConsoleLogs += "<div>Nykooi: I am a Google Chrome command bot system built by Noah Kim</div><br>";
                     document.getElementById("nykooiConsole").innerHTML = nkConsoleLogs;
                 }
-                
-                if(upperNoahCommand == "OPEN CANVAS"){
-                    //my command
-                    console.log("my command: " + upperNoahCommand);
-                    
-                    //pc response
-                    console.log("computer response: " + "Opening canvas login portal!");
-                    
-                    //opening a new tab
-                    window.open("http://www.smc.edu/ACG/DistanceEducation/Canvas/Pages/Login.aspx", '_blank');
-                    
-                    nkConsoleLogs += "<div>Nykooi: Opened Canvas login portal!</div><br>";
-                    document.getElementById("nykooiConsole").innerHTML = nkConsoleLogs;
-                }
-                
-                if(upperNoahCommand == "OPEN DREAM TEAM"){
-                    //my command
-                    console.log("my command: " + upperNoahCommand);
-                    
-                    //pc response
-                    console.log("computer response: " + "Opening dreamteam enviroment!");
-                    
-                    //opening a new tab
-                    window.open("https://us-west-2.console.aws.amazon.com/cloud9/ide/965d2aec28c9478998bc20e7c2d86b41", '_blank');
-                
-                    nkConsoleLogs += "<div>Nykooi: Opened dreamteam IDE!</div><br>";
-                    document.getElementById("nykooiConsole").innerHTML = nkConsoleLogs;
-                }
+
             }
             
              
